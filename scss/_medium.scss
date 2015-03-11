@@ -1,0 +1,11 @@
+//version tablette (1024px et -)
+@media #{$medium-only} {
+	label {
+		span {
+			min-height: 400px !important;
+		}
+	}
+	.over {
+		max-width: 100% !important;
+	}
+}

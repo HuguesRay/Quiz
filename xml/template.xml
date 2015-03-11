@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz-adaptatif 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="quiz-awd.xsd" 
+	nombreDeQuestions="4" 
+	pointageTotal="5">
+	
+	<titre>Stanley Kubrick</titre>
+	<sous-titre>Les films de Kubrick</sous-titre>
+	<intro>Après des débuts dans la photographie, Kubrick, autodidacte, sera également son propre directeur de la photographie, producteur,scénariste ou encore monteur. Ses treize longs métrages en quarante-six ans de carrière l'imposent comme un cinéaste majeur duxxe siècle. Quatre de ses films sont classés dans le top-100 de l'American Film Institute.
+	Connaissez-vous ses films ? 
+	</intro>
+	<retroactions>
+		<positive>Bonne réponse!</positive>
+		<negative>Mauvaise réponse</negative>
+	</retroactions>
+	<question id="Q1" pointage="2">
+		<interrogation>
+			Dans quel film Jack Nicholson cours dans un hotel hanté avec une hache ?
+		</interrogation>
+		<choixReponse id="Q1A" estBonneReponse="0">”The Haunting”</choixReponse>
+		<choixReponse id="Q1B" estBonneReponse="0">“The Howling”</choixReponse>
+		<choixReponse id="Q1C" estBonneReponse="2">“The Shining”</choixReponse> 
+		<choixReponse id="Q1D" estBonneReponse="0">“The Changeling”</choixReponse> 
+		<explication>Shining (The Shining) est un film d'horreur britannico-américain réalisé par Stanley Kubrick en 1980, avec Jack Nicholson, Shelley Duvallet Danny Lloyd dans les rôles principaux. Il est sorti en salles aux États-Unis le 23 mai 1980.</explication>
+	</question>
+	<question id="Q2" pointage="2">
+		<interrogation>
+			Quel film de Kubrick parle d’ultra-violence, de viole et de Beethoven ?
+		</interrogation>
+		<choixReponse id="Q2A" estBonneReponse="2">”A Clockwork Orange”</choixReponse>
+		<choixReponse id="Q2B" estBonneReponse="0">“Dr. Strangelove”</choixReponse>
+		<choixReponse id="Q2C" estBonneReponse="0">“2001: A Space Odyssey”</choixReponse> 
+		<choixReponse id="Q2D" estBonneReponse="0">”A.I.”</choixReponse> 
+		<explication>Adapté du roman d'Anthony Burgess, L'Orange mécanique. Il est à classer dans les films d'anticipation, mais peut également se voir comme une satire de la société moderne.</explication>
+	</question>
+	<question id="Q3" pointage="2">
+		<interrogation>
+			Quel film de Kubrick a Tom Cruise et Nicole Kidman comme acteurs?
+		</interrogation>
+		<choixReponse id="Q3A" estBonneReponse="2">”Eye Wide Shut”</choixReponse>
+		<choixReponse id="Q3B" estBonneReponse="0">“Days of Thunder”</choixReponse>
+		<choixReponse id="Q3C" estBonneReponse="0">“Far and Away”</choixReponse> 
+		<choixReponse id="Q3D" estBonneReponse="0">”Dead Calm”</choixReponse> 
+		<explication>Eyes Wide Shut est un film américain réalisé, produit et coécrit parStanley Kubrick, dont ce sera le dernier film, sorti en 1999.</explication>
+	</question>
+	<question id="Q4" pointage="2">
+		<interrogation>
+			Quel film de Kubrick met en vedette Kirk Douglas?
+		</interrogation>
+		<choixReponse id="Q4A" estBonneReponse="0">”The Shining”</choixReponse>
+		<choixReponse id="Q4B" estBonneReponse="2">“Spartacus”</choixReponse>
+		<choixReponse id="Q4C" estBonneReponse="0">“A Clockwork Orange”</choixReponse> 
+		<choixReponse id="Q4D" estBonneReponse="0">”Full Metal Jacket”</choixReponse> 
+		<explication>Spartacus est un film américain de Stanley Kubrick sorti en 1960 adapté du roman éponyme de Howard Fast.</explication>
+	</question>
+	
+</quiz-adaptatif>

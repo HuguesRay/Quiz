@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+	attributeFormDefault="unqualified">
+	<xs:element name="quiz-adaptatif">
+		<xs:annotation>
+			<xs:documentation>Quiz sujet libre - Exercice Adaptive Web Design</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="titre" type="xs:string"/>
+				<xs:element name="sous-titre" type="xs:string"/>
+				<xs:element name="intro" type="xs:string"/>
+				<xs:element name="retroactions">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="positive" type="xs:string"/>
+							<xs:element name="negative" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="question" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="interrogation" type="xs:string"/>
+							<xs:element name="choixReponse" minOccurs="3" maxOccurs="6">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:anySimpleType">
+											<xs:attribute name="id" type="xs:ID"/>
+											<xs:attribute name="estBonneReponse" type="xs:boolean"
+												use="required"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="explication" type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="id" type="xs:ID"/>
+						<xs:attribute name="pointage" type="xs:float" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="pointageTotal" type="xs:integer" use="required"/>
+			<xs:attribute name="nombreDeQuestions" type="xs:integer" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

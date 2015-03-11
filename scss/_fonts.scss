@@ -1,0 +1,25 @@
+//fonts
+
+//Raleway Regular
+@font-face{ 
+	font-family: 'Raleway Regular';
+	src: url('../fonts/raleway-regular-webfont.eot');
+	src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/raleway-regular-webfont.woff') format('woff'),
+	     url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+	     url('../fonts/raleway-regular-webfont.svg#webfont') format('svg');
+}
+
+//Raleway thin
+@font-face{ 
+	font-family: 'Raleway Thin';
+	src: url('../fonts/raleway-thin-webfont.eot');
+	src: url('../fonts/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/raleway-thin-webfont.woff') format('woff'),
+	     url('../fonts/raleway-thin-webfont.ttf') format('truetype'),
+	     url('../fonts/raleway-thin-webfont.svg#webfont') format('svg');
+}
+
+* {
+    font-family: Raleway Regular;
+}

@@ -1,0 +1,142 @@
+//images de background pour les choix de réponse
+
+.choix {
+	label {
+		.q1 {
+			&.c1 {
+				background: url(../img/Q1/resize1.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q1/blur1.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c2 {
+				background: url(../img/Q1/resize2.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q1/blur2.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c3 {
+				background: url(../img/Q1/resize3.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q1/blur3.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c4 {
+				background: url(../img/Q1/resize4.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q1/blur4.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+		}
+		.q2 {
+			&.c1 {
+				background: url(../img/Q2/resize1.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q2/blur1.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c2 {
+				background: url(../img/Q2/resize2.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q2/blur2.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c3 {
+				background: url(../img/Q2/resize3.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q2/blur3.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c4 {
+				background: url(../img/Q2/resize4.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q2/blur4.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+		}
+		.q3 {
+			&.c1 {
+				background: url(../img/Q3/resize1.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q3/blur1.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c2 {
+				background: url(../img/Q3/resize2.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q3/blur2.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c3 {
+				background: url(../img/Q3/resize3.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q3/blur3.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c4 {
+				background: url(../img/Q3/resize4.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q3/blur4.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+		}
+		.q4 {
+			&.c1 {
+				background: url(../img/Q4/resize1.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q4/blur1.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c2 {
+				background: url(../img/Q4/resize2.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q4/blur2.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c3 {
+				background: url(../img/Q4/resize3.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q4/blur3.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+			&.c4 {
+				background: url(../img/Q4/resize4.png) no-repeat;
+				background-position-x: center;
+				&:hover {
+					background: url(../img/Q4/blur4.png) no-repeat;
+					background-position-x: center;
+				}
+			}
+		}
+	}
+}

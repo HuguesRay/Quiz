@@ -1,0 +1,26 @@
+// adapter cet exemple à vos besoins ou, convertir le fichier xml
+// convertisseur xml to json : http://www.utilities-online.info/xmltojson/#.VBgsNC55Pmo
+// validateur json : http://jsonlint.com/
+{
+    "nombreDeQuestions": "2",
+    "pointageTotal": "5",
+    "retroactions": {
+        "positive": "Bonne réponse!",
+        "negative": "hum... ce n'est pas tout à fait ça!"
+    },
+    "explications": {
+        "Q1": "Entre 1875 et 1877, le vainqueur était toujours celui qui marquait le plus de buts et non l’équipe qui gagnait le plus de points. Par contre,  les essais servaient à départager une éventuelle égalité.",
+        "Q2": "Plus on est de fous, plus on rit."
+    },
+    "bonnesReponses": [
+        "Q1B",
+        "Q2C"
+    ],
+    "messages": {
+        "pasDeReponse": "Veuillez d'abord répondre à la question!",
+        "statusDebut": "Vous avez complété ",
+        "statusFin": " questions.",
+        "resultatsDebut": "Bravo vous avez obtenu ",
+        "resultatsFin": " %!"
+    }
+}

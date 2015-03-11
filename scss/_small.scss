@@ -1,0 +1,22 @@
+//version mobile (640px et -)
+@media #{$small-only} {
+	form {
+		.choix {
+			label {
+				max-width: 225px;
+				margin: 10px auto;
+				display: block;
+
+			}
+		}
+	}
+	.wrapgress {
+		display: none;
+		p {
+			display: block;
+		}
+	}
+	.over {
+		max-width: 100% !important;
+	}
+}
